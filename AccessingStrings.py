@@ -2,16 +2,14 @@
  Author      : DORIAN JAVA BROWN
  Version     : N/A
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
- Description : This program accessing Values in Strings
+ Description : This program accessing values in strings
  '''
 
 var1 = 'Hello World!'
 var2 = "Python Programming"
 
-print ""
-print "var1[0]: ", var1[0:5]
-print "var2[0:6]: ", var2[0:6]
-print ""
+# display strings variables 
+print "\n var1[0:5]: ", var1[0:5]
+print "\n var2[0:6]: ", var2[0:6]
 
-print var1[0:5] + " " + var2[0:6]
-print ""
+print "\n\t\t" + var1[0:5] + " " + var2[0:6], "\n"
