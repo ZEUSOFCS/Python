@@ -2,7 +2,7 @@
  Author      : DORIAN JAVA BROWN
  Version     : N/A
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
- Description : This program accessing Values in Strings
+ Description : This program accessing values in strings
  '''
 
 var1 = 'Hello World!'
