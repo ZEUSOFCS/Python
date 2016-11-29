@@ -9,27 +9,41 @@
 import random
 
 # title of game
-print('Guessing Game \n\n)
-
-# question
+print ('')
+print('Guessing Game')
+print('------------------------')
+print ('')
+      
+# question for user
 print('Think of a number between 0 - 5')
-
-# input data from the user
-userNum  = int(input('Guess a number between 0 - 5 : '))
+print('')
 
 # random number between 0 and 5
-guessNum = print( ' I GUESS ' + random.randint(0,5))
+numGuess = random.randint(0,5)
 
-      
+# procrastination to by time from user 
+print('Keep thinking......\n\n')
+answerReady = input('READY ? (YES/NO) : ')
 
-answer = input('')
-      
-# conditional statements 
-if (userNum == guessNum):
+while answerReady == 'Yes' or 'yes'
       
       print('')
+      print('I GUESS ' + str(numGuess))
+else: 
+      print('Keep thinking......\n\n')
+      answerReady = input('READY? (YES/NO) : ')
       
-if (userNum != guessNum):
+# input data from the user
+answerCorrect = input('CORRECT? (YES/NO) : ')
+      
+# conditional statements 
+if (answer == 'YES' or 'yes'):
+      
+      print('OHHH YEAHHH! I AM A SAVAGE')
+      
+if (answer == 'NO' or 'no'):
+      
+      print('AWE No :' + '( ' + 'Try again !')
       
       
       
