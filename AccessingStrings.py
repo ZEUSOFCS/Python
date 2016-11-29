@@ -12,7 +12,6 @@ var2 = "Python Programming"
 print "\n var1[0:5]: ", var1[0:5]
 print "\n var2[0:6]: ", var2[0:6]
 
-<<<<<<< HEAD
 print "\n\t\t" + var1[0:5] + " " + var2[0:6], "\n"
 print var1[0:5] + " " + var2[0:6]
 print ""
