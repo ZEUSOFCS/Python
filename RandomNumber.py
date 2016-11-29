@@ -23,9 +23,9 @@ numGuess = random.randint(0,5)
 
 # procrastination to by time from user 
 print('Keep thinking......\n\n')
-answerReady = input('READY ? (YES/NO) : ')
+answerReady = raw_input('READY ? (YES/NO) : ')
 
-while answerReady == 'Yes' or 'yes'
+if answerReady == 'Yes' or 'yes' :
       
       print('')
       print('I GUESS ' + str(numGuess))
