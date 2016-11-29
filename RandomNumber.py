@@ -29,21 +29,22 @@ if answerReady == 'Yes' or 'yes' :
       
       print('')
       print('I GUESS ' + str(numGuess))
+      print('')
 else: 
       print('Keep thinking......\n\n')
       answerReady = input('READY? (YES/NO) : ')
       
 # input data from the user
-answerCorrect = input('CORRECT? (YES/NO) : ')
+answerCorrect = raw_input('CORRECT? (YES/NO) : ')
       
 # conditional statements 
-if (answer == 'YES' or 'yes'):
+if answerCorrect == 'YES' or 'yes' :
       
-      print('OHHH YEAHHH! I AM A SAVAGE')
+      print('\nOHHH YEAHHH! I AM A SAVAGE')
       
-if (answer == 'NO' or 'no'):
+if answerCorrect == 'NO' or 'no':
       
-      print('AWE No :' + '( ' + 'Try again !')
+      print('\nAWE No :' + '( ' + 'Try again !')
       
       
       
