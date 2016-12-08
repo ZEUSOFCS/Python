@@ -10,8 +10,8 @@ import random
 
 # title of game
 print ('')
-print('Guessing Game')
-print('------------------------')
+print('\tGuessing Game')
+print('--------------------------')
 print ('')
       
 # question for user
@@ -20,31 +20,36 @@ print('')
 
 # random number between 0 and 5
 numGuess = random.randint(0,5)
-
-# procrastination to by time from user 
-print('Keep thinking......\n\n')
+ 
 answerReady = raw_input('READY ? (YES/NO) : ')
 
-if answerReady == 'Yes' or 'yes' :
-      
+if answerReady == 'Yes' or 'yes' : 
+     
       print('')
       print('I GUESS ' + str(numGuess))
       print('')
-else: 
+elif answerReady == 'NO' or 'no' :
+      
       print('Keep thinking......\n\n')
-      answerReady = input('READY? (YES/NO) : ')
+      answerReady = raw_input('READY? (YES/NO) : ')
+else:
+      print('invalid input')
       
 # input data from the user
 answerCorrect = raw_input('CORRECT? (YES/NO) : ')
       
 # conditional statements 
-if answerCorrect == 'YES' or 'yes' :
+
+if answerCorrect == 'YES' or answerCorrect == 'yes' :
+     
+      print('\n OU OHHH YEAHHH!')
+      print('\n\n')
+elif answerCorrect == "NO" or answerCorrect == "no" :
       
-      print('\nOHHH YEAHHH! I AM A SAVAGE')
-      
-if answerCorrect == 'NO' or 'no':
-      
-      print('\nAWE No :' + '( ' + 'Try again !')
-      
+      print("\nAWE No :" + "( " + "Try again !")
+      print('\n\n')
+else:
+  
+      print("invalid input")
       
       
