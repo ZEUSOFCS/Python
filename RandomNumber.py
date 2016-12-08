@@ -23,14 +23,14 @@ numGuess = random.randint(0,5)
  
 answerReady = raw_input('READY ? (YES/NO) : ')
 
-if answerReady == 'Yes' or 'yes' : 
+if answerReady == 'Yes' or answerReady == 'yes' : 
      
       print('')
       print('I GUESS ' + str(numGuess))
       print('')
-elif answerReady == 'NO' or 'no' :
+elif answerReady == 'NO' or answerReady == 'no' :
       
-      print('Keep thinking......\n\n')
+      print('\nKeep thinking......\n\n')
       answerReady = raw_input('READY? (YES/NO) : ')
 else:
       print('invalid input')
