@@ -19,42 +19,53 @@ print('Think of a number between 0 - 5')
 print('')
 
 # declaration of the limit of sayinh no
-#answerLimit = 0;
+answerLimit = 0;
 
 # random number between 0 and 5
 numGuess = random.randint(0,5)
  
-#while answerLimit < 3:
+# conditional statements 
+while answerLimit >= 0:
   
-answerReady = raw_input('READY ? (YES/NO) : ')
-
-if answerReady == 'Yes' or answerReady == 'yes' : 
+  answerReady = raw_input('READY ?  [YES/NO] : ')
+  
+  if answerReady == 'YES' or answerReady == 'yes' or answerReady == 'Yes' : 
      
       print('')
-      print('I GUESS ' + str(numGuess))
+      print('  ********************')
+      print('  *                  *')
+      print('  *     I GUESS ' + str(numGuess) + '    *')
+      print('  *                  *')
+      print('  ********************')
       print('')
-elif answerReady == 'NO' or answerReady == 'no' :
       
+      answerLimit = -1;
+      
+  elif answerReady == 'NO' or answerReady == 'no' or answerReady == 'No' :
+  
       print('\nKeep thinking......\n\n')
-else:
-      print('\ninvalid input')
-      print('\n Please try again...')
+      print('___________________________________________________\n')
+      answerLimit = 1;
+ 
+  else:
+      print('\n \n ERROR: invalid input...      Please try again. \n\n')
+      answerLimit = 1;
       
 # input data from the user
-answerCorrect = raw_input('CORRECT? (YES/NO) : ')
+answerCorrect = raw_input('\nCORRECT ? [YES/NO] : ')
       
 # conditional statements 
-
-if answerCorrect == 'YES' or answerCorrect == 'yes' :
+if answerCorrect == 'YES' or answerCorrect == 'yes' or answerCorrect == 'Yes' : 
      
       print('\n OU OHHH YEAHHH!')
       print('\n\n')
-elif answerCorrect == "NO" or answerCorrect == "no" :
+elif answerCorrect == 'NO' or answerCorrect == 'no' or answerCorrect == 'No' :
       
-      print("\nNope :" + "( " + "Try again !")
+      print('\n Try again :' + '(' )
       print('\n\n')
 else:
   
-      print("invalid input")
+     print('\n\nERROR: invalid input...  CODE #0E53')
+     print('\nPlease enter \"Yes or No" try again.\n')
       
       
