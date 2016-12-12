@@ -2,7 +2,8 @@
  Author      : DORIAN JAVA BROWN
  Version     : N/A
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
- Description : This program generates a random number between 0 and 5
+ Description : This Guessing Game tries to guess the user number by generating
+               a random number between 0 and 5   
  '''
 
 # import the random module
@@ -30,7 +31,6 @@ while answerLimit >= 0:
   answerReady = raw_input('READY ?  [YES/NO] : ')
   
   if answerReady == 'YES' or answerReady == 'yes' or answerReady == 'Yes' : 
-     
       print('\n\n')
       print('  ********************')
       print('  *                  *')
@@ -40,13 +40,11 @@ while answerLimit >= 0:
       print('\n')
       
       answerLimit = -1
-      
   elif answerReady == 'NO' or answerReady == 'no' or answerReady == 'No' :
   
       print('\nKeep thinking......\n\n')
       print('___________________________________________________\n')
       answerLimit = 1
- 
   else:
       print('\n \n ERROR: invalid input...      Please try again. \n\n')
       answerLimit = 1
@@ -63,15 +61,13 @@ while reset >= 0:
       
   # conditional statements 
   if answerCorrect == 'YES' or answerCorrect == 'yes' or answerCorrect == 'Yes' : 
-     
-      print('\n OU OHHH YEAHHH!')
+      print('\n\n :' + ')' )
       print('\n\n')
-      
+      reset = -1   
   elif answerCorrect == 'NO' or answerCorrect == 'no' or answerCorrect == 'No' :
-      
       print('\n\n :' + '(' )
       print('\n\n')
-      
+      reset = -1
   else:
      print('\n\nERROR: invalid input...  CODE #0E53')
      print('\nPlease enter \"Yes or No" try again.\n')
