@@ -9,7 +9,7 @@
 import random
 
 # title of game
-print ('')
+print ('\n\n')
 print('\tGuessing Game')
 print('--------------------------')
 print ('')
@@ -31,13 +31,13 @@ while answerLimit >= 0:
   
   if answerReady == 'YES' or answerReady == 'yes' or answerReady == 'Yes' : 
      
-      print('')
+      print('\n\n')
       print('  ********************')
       print('  *                  *')
       print('  *     I GUESS ' + str(numGuess) + '    *')
       print('  *                  *')
       print('  ********************')
-      print('')
+      print('\n')
       
       answerLimit = -1;
       
