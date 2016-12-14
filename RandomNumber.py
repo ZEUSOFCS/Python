@@ -3,7 +3,7 @@
  Version     : N/A
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
  Description : This Guessing Game tries to guess the user number by generating
-               a random number between 0 and 5   
+               a random number between 1 and 5   
  '''
 
 # import the random module
