@@ -12,11 +12,11 @@
 
 
 
-
 def calculate():
 
   # operation selection from the user
-  print('Please type in the math operation you would like to complete:')
+  print('\n\n')
+  print('\t\t\tOperation Selection')
   print('-------------------------------------------------------------')
   print('+ for addition')
   print('- for subtraction')
@@ -25,15 +25,18 @@ def calculate():
   print('\ for modulus')
   print('\n\n')
 
-  operation = input('Enter Operation symbol: ')
+  operation = raw_input('Enter Operation symbol: ')
 
-  num1 = int(input("Enter first number: "))
-  num2 = int(input("Enter second number: "))
+  num1 = int(raw_input('\nEnter first number  : '))
+  num2 = int(raw_input('\nEnter second number : '))
 
-  if operation == '+' :
-    print(' {} + {} = ' + (num1 + num2)').format(num1,num2)
+  if operation == '+':
+    print("\n\n")
+    print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
+    print("\n\n")
     
-  elif operation == '-' :
+    
+  ''' elif operation == '-' :
   
   elif operation == '*' :
     
@@ -50,3 +53,9 @@ def calculate():
   # multiplication 
 
   # divison
+  
+  '''
+  
+  
+  
+calculate()
