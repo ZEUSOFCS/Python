@@ -36,15 +36,32 @@ def calculate():
     print("\n\n")
     
     
-  ''' elif operation == '-' :
+  elif operation == '-':
+    print("\n\n")
+    print('ANSWER:  {} - {} = '.format(num1,num2) + str(num1 - num2))
+    print("\n\n")
   
-  elif operation == '*' :
+  elif operation == '*':
+    print("\n\n")
+    print('ANSWER:  {} * {} = '.format(num1,num2) + str(num1 * num2))
+    print("\n\n")
     
-  elif operation == '/' :
+  elif operation == '/':
+    print("\n\n")
+    print('ANSWER:  {} / {} = '.format(num1,num2) + str(num1 / num2))
+    print("\n\n")
   
-  elif operation == '\' :
+  elif operation == '\':
+    print("\n\n")
+    print('ANSWER:  {} \ {} = '.format(num1,num2) + str(num1 % num2))
+    print("\n\n")
+  
     
-  else :
+  else:
+    print('You have not typed a valid operator, please run the program again.')
+    
+    
+    
   
   # addition
 
