@@ -30,7 +30,7 @@ while answerLimit >= 0:
   
   answerReady = raw_input('READY ?  [YES/NO] : ')
   
-  if answerReady == 'YES' or answerReady == 'yes' or answerReady == 'Yes' : 
+  if answerReady == 'YES' or answerReady == 'yes' or answerReady == 'Yes': 
       print('\n\n')
       print('  ********************')
       print('  *                  *')
@@ -40,7 +40,7 @@ while answerLimit >= 0:
       print('\n')
       
       answerLimit = -1
-  elif answerReady == 'NO' or answerReady == 'no' or answerReady == 'No' :
+  elif answerReady == 'NO' or answerReady == 'no' or answerReady == 'No':
   
       print('\nKeep thinking......\n\n')
       print('___________________________________________________\n')
@@ -60,11 +60,11 @@ while reset >= 0:
   answerCorrect = raw_input('\nCORRECT ? [YES/NO] : ')
       
   # conditional statements 
-  if answerCorrect == 'YES' or answerCorrect == 'yes' or answerCorrect == 'Yes' : 
+  if answerCorrect == 'YES' or answerCorrect == 'yes' or answerCorrect == 'Yes': 
       print('\n\n :' + ')' )
       print('\n\n')
       reset = -1   
-  elif answerCorrect == 'NO' or answerCorrect == 'no' or answerCorrect == 'No' :
+  elif answerCorrect == 'NO' or answerCorrect == 'no' or answerCorrect == 'No':
       print('\n\n :' + '(' )
       print('\n\n')
       reset = -1
