@@ -33,6 +33,15 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
+
+print('Please type in the math operation you would like to complete:')
+print('-------------------------------------------------------------')
+print('+ for addition')
+print('- for subtraction')
+print('* for multiplication')
+print('/ for division')
+print('\n\n')
+
 choice = input("Enter choice(1/2/3/4):")
 
 num1 = int(input("Enter first number: "))
