@@ -5,26 +5,29 @@
  Description : This is a simple calculator that can add, subtract, multiply and divide using functions 
  '''
 
-# functions definitions
 
-# addition fuction
+
+'''functions definitions'''
+
+# addition function
 def add(x, y):
    return x + y
 
+# subtraction function
 def subtract(x, y):
-   """This function subtracts two numbers"""
    return x - y
 
+# multiplication function
 def multiply(x, y):
-   """This function multiplies two numbers"""
    return x * y
 
+# divison function
 def divide(x, y):
-   """This function divides two numbers"""
    return x / y
 
-# take input from the user
-print("Select operation.")
+# operation selection from the user
+print("\t\tSelect operation:")
+print("==============================================")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
