@@ -31,37 +31,54 @@ def calculate():
   num2 = int(raw_input('\nEnter second number : '))
 
   if operation == '+':
-    print("\n\n")
+    print('\n\n')
     print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
-    print("\n\n")
+    print('\n\n')
     
     
   elif operation == '-':
-    print("\n\n")
+    print('\n\n')
     print('ANSWER:  {} - {} = '.format(num1,num2) + str(num1 - num2))
-    print("\n\n")
+    print('\n\n')
   
   elif operation == '*':
-    print("\n\n")
+    print('\n\n')
     print('ANSWER:  {} * {} = '.format(num1,num2) + str(num1 * num2))
-    print("\n\n")
+    print('\n\n')
     
   elif operation == '/':
-    print("\n\n")
+    print('\n\n')
     print('ANSWER:  {} / {} = '.format(num1,num2) + str(num1 / num2))
-    print("\n\n")
+    print('\n\n')
   
-  elif operation == '\':
-    print("\n\n")
+  elif operation == '/':
+    print('\n\n')
     print('ANSWER:  {} \ {} = '.format(num1,num2) + str(num1 % num2))
-    print("\n\n")
+    print('\n\n')
   
     
-  else:
-    print('You have not typed a valid operator, please run the program again.')
+  else: print('You have not typed a valid character, please run the program again.')
     
     
     
+  def operation():
+    
+    if operation == '+':
+      calculate()
+      
+    elif operation == '-':
+      calculate()
+      
+    elif operation == '*':
+      calculate()
+      
+    elif operation == '\' :
+      calculate()
+      
+    elif operation == '/':
+      calculate()
+      
+    else: print('You have not typed a valid operator, please run the program again.')
   
   # addition
 
@@ -71,8 +88,5 @@ def calculate():
 
   # divison
   
-  '''
   
-  
-  
-calculate()
+operation()
