@@ -7,7 +7,6 @@
 
 
 
-'''function definitions'''
 
 def calculate():
 
@@ -25,20 +24,19 @@ def calculate():
   operation = raw_input('Enter Operation symbol: ')
 
   # check if operation symbol is valid
-  operator(operation)
-  
-  # recieving two numbers from user
-  num1 = int(raw_input('\nEnter first number  : '))
-  num2 = int(raw_input('\nEnter second number : '))
-  
+
+
+
   # addition
   if operation == '+':
+    userData(num1, num2)
     print('\n\n')
-    print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
+    print('ANSWER:  {} + {} = '.format(num1, num2) + str(num1 + num2))
     print('\n\n')
     
   # subtraction 
   elif operation == '-':
+    userData()
     print('\n\n')
     print('ANSWER:  {} - {} = '.format(num1,num2) + str(num1 - num2))
     print('\n\n')
@@ -65,15 +63,17 @@ def calculate():
   else: print('Invalid character, please run the program again.')
     
     
-def operator(operation):
-
-      if operation != '+':
-
-        if operation == 3 :
-          print('Invalid operator, please run the program again.')
-          calculate()
+def userData(num1, num2):
+  # recieving two numbers from user
+  num1 = int(raw_input('\nEnter first number  : '))
+  num2 = int(raw_input('\nEnter second number : '))
+  return num1, num2
 
  
+'''function definitions'''
+num1 = userData(num1, num2)
+num2 = userData(num1, num2)
+
   
 '''function call'''
 calculate()
