@@ -7,10 +7,7 @@
 
 
 
-'''functions definitions'''
-
-
-
+'''function definitions'''
 
 def calculate():
 
@@ -27,66 +24,56 @@ def calculate():
 
   operation = raw_input('Enter Operation symbol: ')
 
+  # check if operation symbol is valid
+  operator(operation)
+  
+  # recieving two numbers from user
   num1 = int(raw_input('\nEnter first number  : '))
   num2 = int(raw_input('\nEnter second number : '))
-
+  
+  # addition
   if operation == '+':
     print('\n\n')
     print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
     print('\n\n')
     
-    
+  # subtraction 
   elif operation == '-':
     print('\n\n')
     print('ANSWER:  {} - {} = '.format(num1,num2) + str(num1 - num2))
     print('\n\n')
-  
+    
+  # multiplication 
   elif operation == '*':
     print('\n\n')
     print('ANSWER:  {} * {} = '.format(num1,num2) + str(num1 * num2))
     print('\n\n')
     
+  # divison
   elif operation == '/':
     print('\n\n')
     print('ANSWER:  {} / {} = '.format(num1,num2) + str(num1 / num2))
     print('\n\n')
   
+  # modulus 
   elif operation == '/':
     print('\n\n')
     print('ANSWER:  {} \ {} = '.format(num1,num2) + str(num1 % num2))
     print('\n\n')
   
     
-  else: print('You have not typed a valid character, please run the program again.')
+  else: print('Invalid character, please run the program again.')
     
     
-    
-  def operation():
-    
-    if operation == '+':
-      calculate()
-      
-    elif operation == '-':
-      calculate()
-      
-    elif operation == '*':
-      calculate()
-      
-    elif operation == '\' :
-      calculate()
-      
-    elif operation == '/':
-      calculate()
-      
-    else: print('You have not typed a valid operator, please run the program again.')
-  
-  # addition
+def operator(operation):
 
-  # subtraction
+      if operation != '+':
 
-  # multiplication 
+        if operation == 3 :
+          print('Invalid operator, please run the program again.')
+          calculate()
 
-  # divison
+ 
   
-  
-operation()
+'''function call'''
+calculate()
