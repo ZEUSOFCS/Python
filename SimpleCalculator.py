@@ -9,9 +9,16 @@
 x = 0
 y = 0
 
-  
-'''function definitions'''
 
+
+'''function definition'''
+def userData(x,y):
+  return num1, num2
+
+
+
+  
+'''function definition'''
 def calculate():
 
   # operation selection from the user
@@ -24,23 +31,18 @@ def calculate():
   print('/ for division')
   print('\ for modulus')
   print('\n\n')
+  
 
+'''check if operation symbol is valid'''
+def operation():
+  
   operation = raw_input('Enter Operation symbol: ')
-
-def userData(x,y):
-  return num1, num2
-
-# recieving two numbers from user
-num1 = int(raw_input('\nEnter first number  : '))
-num2 = int(raw_input('\nEnter second number : '))
-
-  # check if operation symbol is valid
-
+  
   # addition
   if operation == '+':
-    userData(x,y)
+    userData(x,y) 
     print('\n\n')
-    print('ANSWER:  {} + {} = '.format(num1, num2) + str(num1 + num2))
+    print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
     print('\n\n')
     
   # subtraction 
@@ -73,8 +75,10 @@ num2 = int(raw_input('\nEnter second number : '))
     
 
 
-
- 
-
 '''function call'''
 calculate()
+
+operation()
+# recieving two numbers from user
+num1 = int(raw_input('\nEnter first number  : '))
+num2 = int(raw_input('\nEnter second number : '))
