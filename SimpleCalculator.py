@@ -6,13 +6,11 @@
  '''
 
 
-x = 0
-y = 0
-
-
 
 '''function definition'''
-def userData(x,y):
+def userData(num1,num2):
+  
+  
   return num1, num2
 
 
@@ -38,9 +36,14 @@ def operation():
   
   operation = raw_input('Enter Operation symbol: ')
   
+  
+    # recieving two numbers from user
+  num1 = int(raw_input('\nEnter first number  : '))
+  num2 = int(raw_input('\nEnter second number : '))
+  
   # addition
   if operation == '+':
-    userData(x,y) 
+    userData(num1,num2) 
     print('\n\n')
     print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
     print('\n\n')
@@ -69,7 +72,6 @@ def operation():
     print('\n\n')
     print('ANSWER:  {} \ {} = '.format(num1,num2) + str(num1 % num2))
     print('\n\n')
-  
     
   else: print('Invalid character, please run the program again.')
     
@@ -77,8 +79,4 @@ def operation():
 
 '''function call'''
 calculate()
-
 operation()
-# recieving two numbers from user
-num1 = int(raw_input('\nEnter first number  : '))
-num2 = int(raw_input('\nEnter second number : '))
