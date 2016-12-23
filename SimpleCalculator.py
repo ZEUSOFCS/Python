@@ -7,15 +7,7 @@
 
 
 
-'''function definition'''
-def userData(num1,num2):
-  
-  
-  return num1, num2
 
-
-
-  
 '''function definition'''
 def calculate():
 
@@ -31,26 +23,26 @@ def calculate():
   print('\n\n')
   
 
-'''check if operation symbol is valid'''
+
 def operation():
   
   operation = raw_input('Enter Operation symbol: ')
   
-  
-    # recieving two numbers from user
+  # recieving two numbers from user
   num1 = int(raw_input('\nEnter first number  : '))
   num2 = int(raw_input('\nEnter second number : '))
   
+  
+  '''check if operation symbol is valid'''
+  
   # addition
   if operation == '+':
-    userData(num1,num2) 
     print('\n\n')
     print('ANSWER:  {} + {} = '.format(num1,num2) + str(num1 + num2))
     print('\n\n')
     
   # subtraction 
   elif operation == '-':
-    userData()
     print('\n\n')
     print('ANSWER:  {} - {} = '.format(num1,num2) + str(num1 - num2))
     print('\n\n')
@@ -75,7 +67,7 @@ def operation():
     
   else: print('Invalid character, please run the program again.')
     
-
+    
 
 '''function call'''
 calculate()
