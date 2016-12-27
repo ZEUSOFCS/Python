@@ -67,26 +67,25 @@ def operation():
     
   else: print('Invalid character, please run the program again.')
  
+  again()
 
- def again():
-    calc_again = input('''
-Do you want to calculate again?
-Please type Y for YES or N for NO.
-''')
+ # ask user if they want to use the calculator again
+def again():
 
-    if calc_again.upper() == 'Y':
+    calc_again = raw_input(' \n\n Do you want to calculate again [YES or NO] :  ')
+
+    # If user types Y, run the calculate() function
+    if calc_again == 'YES' or calc_again == 'Yes' or calc_again == 'yes':
         calculate()
-    elif calc_again.upper() == 'N':
-        print('See you later.')
+        operation()
+        
+    # If user types N, say good-bye to the user and end the program
+    elif calc_again == 'NO' or  calc_again == 'No' or calc_again == 'no':
+        print('\n\n\t\tApplication Closed.\n\n')
+
+    # If user types another key, run the function again
     else:
         again()
-    
-
- # Add again() function to calculate() function
- again()
-
-
-    
 
 '''function call'''
 calculate()
