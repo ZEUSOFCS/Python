@@ -6,3 +6,4 @@
  '''
 
 Tip CAlC
+tip = 0.00
