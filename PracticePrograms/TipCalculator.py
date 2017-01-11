@@ -7,8 +7,14 @@
 
 # menu
 
-print('\n\n JUICEY BURGER')
-print('Bill Total:   $19.99')
+print('\n\n\t\t JUICEY BURGER\n\n')
+print('')
+print('1 Juicey Burger  $19.99')
+print('-------------------------------------------')
+print('')
+print('Sub Total:       $19.99')
+print('Local Tax:       $ 1.50')
+print('Bill Total:      $21.49')
 print("\n\n")
 
 tip = 0.00
