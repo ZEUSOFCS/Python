@@ -9,7 +9,8 @@
 
 print('\n\n\t\t JUICEY BURGER\n\n')
 print('')
-print('1 Juicey Burger  $19.99')
+print('1 Juicey Burger  $18.99')
+print('1 Orange Drink   $ 1.00')
 print('-------------------------------------------')
 print('')
 print('Sub Total:       $19.99')
