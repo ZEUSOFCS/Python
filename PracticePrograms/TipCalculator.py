@@ -5,17 +5,24 @@
  Description : This program provides the user with options on how much tip the customer should leave the waiter/waitress
  '''
 
+import os system
+
+def cls():
+  os.system('cls')
 # menu
 
 print('\n\n\t\t JUICEY BURGER\n\n')
 print('')
-print('1 Juicey Burger  $18.99')
-print('1 Orange Drink   $ 1.00')
+print('1 Juicey Burger  $ 18.99')
+print('1 Orange Drink   $  1.00')
 print('-------------------------------------------')
 print('')
-print('Sub Total:       $19.99')
-print('Local Tax:       $ 1.50')
-print('Bill Total:      $21.49')
+print('Sub Total:       $ 19.99')
+print('Local Tax:       $  1.50')
+print('Bill Total:      $ 21.49')
 print("\n\n")
 
+
 tip = 0.00
+
+#https://www.youtube.com/watch?annotation_id=annotation_3770292585&feature=iv&src_vid=bguKhMnvmb8&v=LtGEp9c6Z-U
