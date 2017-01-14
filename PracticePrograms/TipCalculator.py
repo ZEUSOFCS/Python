@@ -20,8 +20,9 @@ print('')
 print('Sub Total:       $ 19.99')
 print('Local Tax:       $  1.50')
 print('Bill Total:      $ 21.49')
-print("\n\n")
+print('\n\n')
 
+print('Correct or Incorect: ')
 
 tip = 0.00
 
