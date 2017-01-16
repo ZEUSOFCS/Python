@@ -33,9 +33,9 @@ if answer == 'YES' or answer == 'Yes' or answer == 'yes' :
   print('\n\n\t Tip Suggestions')
   print('----------------------------------')
   print('A)  %%20           $ %0.3f' %((total * .20)))
-  print('B)  %%20           $ %0.3f' %((total * .20)))
-  print('C)  %%20           $ %0.3f' %((total * .20)))
-  print('D)  %%20           $ %0.3f' %((total * .20)))
+  print('B)  %%15           $ %0.3f' %((total * .15)))
+  print('C)  %%10           $ %0.3f' %((total * .10)))
+  print('D)   %%5           $ %0.3f' %((total * .05)))
   
   
   
