@@ -37,7 +37,7 @@ if answer == 'YES' or answer == 'Yes' or answer == 'yes' :
   print('C)  %%10           $ %0.3f' %((total * .10)))
   print('D)   %%5           $ %0.3f' %((total * .05)))
   
-  
+  print
   
 elif answer == 'NO' or answer == 'No' or answer == 'no' :
   print ('\n\n\t\t please wait one moment for assistance...\n\n')
