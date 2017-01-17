@@ -30,7 +30,7 @@ if answer == 'YES' or answer == 'Yes' or answer == 'yes' :
   cls()
   
   # tip suggestion list
-  print('\n\n\t Tip Suggestions')
+  print('\n\n\t Tip Suggestiozzns')
   print('----------------------------------')
   print('A)  %%20           $ %0.3f' %((total * .20)))
   print('B)  %%15           $ %0.3f' %((total * .15)))
