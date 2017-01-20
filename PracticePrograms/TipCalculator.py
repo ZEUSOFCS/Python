@@ -12,7 +12,9 @@ total = 21.49
 def cls():
   os.system('cls' if os.name == 'nt' else 'clear')
   
-def opt():        #opt abbreviation 
+def result():
+ 
+def opt():        # opt abbreviation for option
     
     
   answer = raw_input('Correct ?  ')
@@ -28,8 +30,6 @@ def opt():        #opt abbreviation
   print('C)  %%10           $ %0.3f' %((total * .10)))
   print('D)   %%5           $ %0.3f' %((total * .05)))
   print('E)  No Thank You /n/n')
-  
-  print
   
 elif answer == 'NO' or answer == 'No' or answer == 'no' :
   print ('\n\n\t\t please wait one moment for assistance...\n\n')
