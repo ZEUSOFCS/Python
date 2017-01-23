@@ -19,7 +19,7 @@ print('-------------------------------------------')
 print('')
 print('Sub Total:       $ 19.99')
 print('Local Tax:       $  1.50')
-print('Bill Total:      $ 21.49')
+print('Bill Total:      )
 print('\n\n')
 
 
@@ -29,7 +29,7 @@ def cls():
  
  
 def opt():        # opt abbreviation for option
-    
+    #ABCDE Option, if statements
     
   answer = raw_input('Correct ?  ')
 
