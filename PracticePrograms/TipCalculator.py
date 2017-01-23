@@ -9,10 +9,23 @@ import os
 
 total = 21.49
 
+def newReceipt(): 
+ # menu display
+print('\n\n\t\t JUICEY BURGER\n\n')
+print('')
+print('1 Juicey Burger  $ 18.99')
+print('1 Orange Drink   $  1.00')
+print('-------------------------------------------')
+print('')
+print('Sub Total:       $ 19.99')
+print('Local Tax:       $  1.50')
+print('Bill Total:      $ 21.49')
+print('\n\n')
+
+
+ print 
 def cls():
   os.system('cls' if os.name == 'nt' else 'clear')
-  
-def result():
  
  
 def opt():        # opt abbreviation for option
@@ -34,12 +47,13 @@ def opt():        # opt abbreviation for option
   
  
 elif answer == 'NO' or answer == 'No' or answer == 'no' :
-  print ('\n\n\t\t please wait one moment for assistance...\n\n')
+  
   
 else:
       print('\n\n\t\t error:. invaild value \n\n')
+      print ('\n\n\t\t please wait one moment for assistance...\n\n')
 
-def menu():
+def receipt():
   
 # menu display
 print('\n\n\t\t JUICEY BURGER\n\n')
@@ -57,6 +71,6 @@ print('\n\n')
 #https://www.youtube.com/watch?annotation_id=annotation_3770292585&feature=iv&src_vid=bguKhMnvmb8&v=LtGEp9c6Z-U
 
 
-menu()
+receipt()
 opt()
 result()
