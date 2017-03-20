@@ -73,4 +73,4 @@ print('\n\n')
 
 receipt()
 opt()
-result()
+result()eeeee
