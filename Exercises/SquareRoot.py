@@ -4,7 +4,7 @@
  Copyright   : All Rights Reserve; You may use, distribute and modify this code.
  Description : This program calculates the square root
  '''
-xxx
+
 # input data from the user
 num = float(input('enter a number: '))
 
